@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-             git branch: 'main',url: 'https://github.com/sagnik-004/capgemini-devops-training'
+             git branch: 'main',url: 'https://github.com/sagnik-004/Maven-CICD-Demo.git'
             }
         }
 
